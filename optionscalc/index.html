@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Option Calculator | 옵션 가격과 Greeks를 실시간으로 시각화하는 iPhone 앱</title>
+  <meta name="description" content="MBA 및 경제학 학습자를 위한 iPhone 옵션 가격 계산기. Black-Scholes 기반 실시간 가격 계산, Greeks, 가격 곡선, 히트맵, 시나리오 표를 한 곳에서 제공합니다.">
+  <meta name="theme-color" content="#0052ff">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Option Calculator">
+  <meta property="og:description" content="블랙-숄즈 기반 실시간 옵션 가격 계산, Greeks, 히트맵, 시나리오 분석을 하나의 iPhone 앱에서.">
+  <meta property="og:url" content="https://app.choyoungil.com/optionscalc/">
+  <meta property="og:image" content="https://app.choyoungil.com/optionscalc/assets/screen-calculator.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Option Calculator">
+  <meta name="twitter:description" content="실시간 옵션 가격 계산과 Greeks 시각화를 위한 학습용 iPhone 앱">
+  <meta name="twitter:image" content="https://app.choyoungil.com/optionscalc/assets/screen-calculator.png">
+  <link rel="canonical" href="https://app.choyoungil.com/optionscalc/">
+  <link rel="icon" type="image/png" href="./assets/app-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Option Calculator 홈">
+        <img src="./assets/app-icon.png" alt="" width="44" height="44">
+        <span class="brand-copy">
+          <strong>Option Calculator</strong>
+          <span>Real-time pricing for MBA &amp; econ</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="섹션 이동">
+        <a href="#features">기능</a>
+        <a href="#screens">스크린샷</a>
+        <a href="#audience">학습 활용</a>
+        <a class="nav-cta" href="https://apps.apple.com/kr/app/id6762327749" target="_blank" rel="noreferrer">App Store</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-light">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Option pricing for focused learners</p>
+          <h1 class="reveal delay-1">
+            옵션의 이론 가격과<br>
+            Greeks를 실시간으로<br>
+            읽어내는 가장 선명한 방법
+          </h1>
+          <p class="hero-body reveal delay-2">
+            Option Calculator는 MBA 및 경제학 학습자를 위해 설계된 iPhone 앱입니다.
+            Black-Scholes 기반 이론 가격 계산, 유럽형·미국형 옵션 비교, Greeks 해석,
+            가격 곡선·히트맵·시나리오 표 시각화를 하나의 흐름으로 묶었습니다.
+          </p>
+
+          <div class="hero-actions reveal delay-3">
+            <a class="button button-primary" href="https://apps.apple.com/kr/app/id6762327749" target="_blank" rel="noreferrer">App Store에서 보기</a>
+            <a class="button button-secondary" href="#screens">스크린샷 보기</a>
+          </div>
+
+          <dl class="hero-stats reveal delay-4">
+            <div>
+              <dt>10</dt>
+              <dd>지원 언어</dd>
+            </div>
+            <div>
+              <dt>6</dt>
+              <dd>가격 곡선 변동성 시나리오</dd>
+            </div>
+            <div>
+              <dt>3</dt>
+              <dd>시각화 워크스페이스</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual reveal delay-2">
+          <div class="hero-card">
+            <div class="hero-card-top">
+              <span class="mini-label">Live pricing</span>
+              <span class="mini-pill">Black-Scholes</span>
+            </div>
+            <img src="./assets/screen-calculator.png" alt="Option Calculator 계산기 화면 스크린샷">
+          </div>
+
+          <aside class="hero-side-card">
+            <span class="mini-label">What you can explain</span>
+            <ul>
+              <li>유럽형과 미국형 옵션 가치 비교</li>
+              <li>Delta, Gamma, Theta, Vega, Rho 해석</li>
+              <li>시장 가정 변화에 따른 가격 민감도</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="features" class="feature-band section-dark">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Built for structured explanation</p>
+          <h2>숫자를 바로 계산하고, 바로 설명할 수 있도록</h2>
+          <p>
+            단순 계산기에서 끝나지 않습니다. 입력값을 바꾸는 순간 결과가 즉시 갱신되고,
+            그 결과를 차트와 히트맵, 표로 이어서 설명할 수 있게 설계했습니다.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal delay-1">
+            <span class="card-index">01</span>
+            <h3>실시간 옵션 가격 계산</h3>
+            <p>현재 가격, 행사가, 만기, 변동성, 무위험이자율을 입력하면 이론 가격과 핵심 지표가 즉시 갱신됩니다.</p>
+          </article>
+
+          <article class="feature-card reveal delay-2">
+            <span class="card-index">02</span>
+            <h3>Greeks 해석까지 한 흐름으로</h3>
+            <p>Greek 문자를 실제 기호로 보여주고, 각 민감도가 무엇을 의미하는지 앱 안에서 바로 읽을 수 있습니다.</p>
+          </article>
+
+          <article class="feature-card reveal delay-3">
+            <span class="card-index">03</span>
+            <h3>시각화 중심 학습 경험</h3>
+            <p>가격 곡선, 히트맵, 시나리오 표를 스와이프 기반으로 전환하며 같은 가정을 서로 다른 시각으로 비교할 수 있습니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="screens" class="screens section-light">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Product walkthrough</p>
+          <h2>실제 앱 화면으로 보는 핵심 플로우</h2>
+          <p>계산, 시각화, 학습 탭이 어떻게 연결되는지 한눈에 볼 수 있도록 실제 iPhone 스크린샷을 그대로 담았습니다.</p>
+        </div>
+
+        <div class="screen-grid">
+          <figure class="screen-card reveal">
+            <img src="./assets/screen-calculator.png" alt="실시간 옵션 가격 계산 화면">
+            <figcaption>
+              <strong>실시간 계산기</strong>
+              <span>입력값이 바뀌면 가격과 Greeks가 바로 반영됩니다.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="screen-card reveal delay-1">
+            <img src="./assets/screen-chart.png" alt="가격 곡선 시각화 화면">
+            <figcaption>
+              <strong>가격 곡선</strong>
+              <span>여러 변동성 시나리오를 같은 축에서 비교해 가격 곡률을 읽을 수 있습니다.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="screen-card reveal delay-2">
+            <img src="./assets/screen-heatmap.png" alt="히트맵 시각화 화면">
+            <figcaption>
+              <strong>히트맵</strong>
+              <span>기초자산 가격과 변동성 조합별 옵션 가치의 분포를 직관적으로 파악합니다.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="screen-card reveal delay-3">
+            <img src="./assets/screen-learn.png" alt="학습 탭 화면">
+            <figcaption>
+              <strong>학습 탭</strong>
+              <span>Black-Scholes, 옵션 구조, Greeks 설명과 앱 설정을 한곳에 배치했습니다.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="audience" class="audience section-dark">
+        <div class="section-heading reveal">
+          <p class="eyebrow">For classes, self-study, and sharper conversations</p>
+          <h2>수업 발표와 혼자 공부하는 순간 모두를 위한 앱</h2>
+          <p>
+            빠르게 값을 확인할 때도, 왜 그런 값이 나오는지 설명해야 할 때도 같은 앱 안에서 끝낼 수 있도록 구성했습니다.
+          </p>
+        </div>
+
+        <div class="audience-layout">
+          <div class="audience-copy reveal delay-1">
+            <ul class="bullet-list">
+              <li>유럽형과 미국형 옵션을 같은 입력 조건에서 바로 비교</li>
+              <li>Greeks를 숫자와 설명 카드로 함께 확인</li>
+              <li>이미지 저장 기능으로 수업 자료와 발표 화면을 손쉽게 공유</li>
+              <li>시스템 언어 자동 인식 + 앱 내부 수동 언어 변경 지원</li>
+            </ul>
+
+            <div class="language-panel">
+              <span class="mini-label">Localized for global learners</span>
+              <div class="language-chips">
+                <span>한국어</span>
+                <span>English</span>
+                <span>日本語</span>
+                <span>简体中文</span>
+                <span>繁體中文</span>
+                <span>Español</span>
+                <span>Français</span>
+                <span>हिन्दी</span>
+                <span>العربية</span>
+                <span>Русский</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="audience-matrix reveal delay-2" aria-hidden="true">
+            <div class="matrix-card">
+              <span class="matrix-label">Theory</span>
+              <strong>Black-Scholes</strong>
+            </div>
+            <div class="matrix-card">
+              <span class="matrix-label">Sensitivity</span>
+              <strong>Δ Γ Θ ν ρ</strong>
+            </div>
+            <div class="matrix-card">
+              <span class="matrix-label">Visualization</span>
+              <strong>Chart · Heatmap · Table</strong>
+            </div>
+            <div class="matrix-card">
+              <span class="matrix-label">Use case</span>
+              <strong>Classroom · Assignment · Review</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section-light">
+        <div class="cta-panel reveal">
+          <p class="eyebrow">Option Calculator on iPhone</p>
+          <h2>옵션 가격을 계산하는 데서 끝나지 않고, 설명 가능한 이해까지 이어가세요.</h2>
+          <p>
+            App Store에서 바로 내려받아 MBA·경제학 수업, 개인 학습, 시장 가정 비교에 활용할 수 있습니다.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://apps.apple.com/kr/app/id6762327749" target="_blank" rel="noreferrer">지금 다운로드</a>
+            <a class="button button-secondary" href="#top">맨 위로</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Option Calculator</span>
+      <a href="https://apps.apple.com/kr/app/id6762327749" target="_blank" rel="noreferrer">App Store</a>
+    </footer>
+  </div>
+</body>
+</html>
