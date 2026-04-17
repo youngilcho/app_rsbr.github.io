@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>아기 예방접종 알리미</title>
+    <meta
+      name="description"
+      content="아이 생년월일만 입력하면 예방접종과 영유아 검진 일정을 한 번에 정리하고, 백신 정보와 준비사항까지 함께 알려주는 보호자용 일정 앱입니다."
+    />
+    <meta property="og:title" content="아기 예방접종 알리미" />
+    <meta
+      property="og:description"
+      content="예방접종 일정, 영유아 검진, D-day, 백신 상세 정보와 준비사항까지 한 번에 정리해주는 보호자용 앱"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://app.choyoungil.com/babyvaccine/" />
+    <meta property="og:image" content="./assets/app-icon.png" />
+    <meta name="theme-color" content="#254441" />
+    <link rel="canonical" href="https://app.choyoungil.com/babyvaccine/" />
+    <link rel="icon" type="image/png" href="./assets/app-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="아기 예방접종 알리미 홈">
+          <img src="./assets/app-icon.png" alt="" class="brand-icon" />
+          <span class="brand-copy">
+            <strong>아기 예방접종 알리미</strong>
+            <small>부모를 위한 예방접종 · 검진 컴패니언</small>
+          </span>
+        </a>
+
+        <nav class="header-links" aria-label="바로가기">
+          <a href="https://rsbr.kr/" target="_blank" rel="noreferrer"
+            >지원 사이트</a
+          >
+          <a
+            href="https://rsbr.kr/privacy.html"
+            target="_blank"
+            rel="noreferrer"
+            >개인정보처리방침</a
+          >
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">아이 생년월일만 입력하면</p>
+            <h1>
+              성인기까지 이어지는 예방접종과
+              <br />
+              영유아 검진 일정을 한 번에 정리합니다
+            </h1>
+            <p class="hero-description">
+              아기 예방접종 알리미는 보호자가 “지금 무엇을 준비해야
+              하는지”를 바로 이해할 수 있도록 만든 일정 도우미입니다.
+              접종 시기, 검진 일정, D-day, 백신 설명, 준비사항, 공공서비스
+              연계까지 한 흐름으로 확인할 수 있습니다.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                class="store-pill store-pill-primary"
+                href="https://apps.apple.com/kr/app/%EC%95%84%EA%B8%B0-%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85-%EC%95%8C%EB%A6%AC%EB%AF%B8/id6761102015"
+                target="_blank"
+                rel="noreferrer"
+                >App Store에서 보기</a
+              >
+              <a
+                class="secondary-link"
+                href="https://rsbr.kr/"
+                target="_blank"
+                rel="noreferrer"
+                >기존 지원 사이트 보기</a
+              >
+            </div>
+
+            <ul class="hero-chips" aria-label="핵심 포인트">
+              <li>생년월일 기반 맞춤 일정</li>
+              <li>목록/캘린더 동시 지원</li>
+              <li>백신·검진 상세 정보</li>
+              <li>기기 알림과 D-day</li>
+              <li>원격 데이터베이스 업데이트</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="앱 화면 미리보기">
+            <div class="hero-badge hero-badge-top">
+              <strong>아이 맞춤 일정</strong>
+              <span>출생일부터 성인기까지 이어서 관리</span>
+            </div>
+
+            <div class="phone-stack">
+              <figure class="phone-frame phone-primary">
+                <img
+                  src="./assets/home.png"
+                  alt="아기 예방접종 알리미 홈 화면"
+                />
+              </figure>
+
+              <figure class="phone-frame phone-secondary">
+                <img
+                  src="./assets/vaccines.png"
+                  alt="예방접종 캘린더 화면"
+                />
+              </figure>
+
+              <figure class="phone-frame phone-tertiary">
+                <img
+                  src="./assets/profile.png"
+                  alt="프로필과 데이터베이스 정보 화면"
+                />
+              </figure>
+            </div>
+
+            <div class="hero-badge hero-badge-bottom">
+              <strong>공공서비스와 함께 쓰는 앱</strong>
+              <span>기록 확인은 공식 채널에서, 이해와 준비는 이 앱에서</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="trust-strip">
+          <article>
+            <strong>복잡한 일정표를 다시 찾지 않아도</strong>
+            <p>지금 준비할 일정과 앞으로 남은 일정을 직관적으로 확인</p>
+          </article>
+          <article>
+            <strong>백신과 검진을 한 화면에서</strong>
+            <p>영유아 건강검진과 예방접종을 한 흐름으로 정리</p>
+          </article>
+          <article>
+            <strong>최신 데이터베이스 갱신</strong>
+            <p>앱 실행 중 원격 JSON 기반 일정 업데이트 지원</p>
+          </article>
+        </section>
+
+        <section class="feature-section" id="features">
+          <div class="section-heading">
+            <p class="eyebrow">핵심 기능</p>
+            <h2>보호자가 실제로 자주 보게 되는 기능만 남겼습니다</h2>
+            <p>
+              단순한 일정표 앱이 아니라, 놓치지 않게 돕고 이해를 돕는
+              컴패니언 경험에 집중했습니다.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-index">01</span>
+              <h3>아이 맞춤 일정 계산</h3>
+              <p>
+                생년월일만 입력하면 신생아 시기부터 유아기, 취학 전,
+                청소년기, 성인기까지 이어지는 예방접종 흐름을 정리합니다.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-index">02</span>
+              <h3>목록과 캘린더를 함께</h3>
+              <p>
+                세부 항목은 목록으로, 큰 흐름은 캘린더로 확인할 수 있어
+                가까운 일정과 먼 미래 일정 모두 보기 쉽습니다.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-index">03</span>
+              <h3>D-day와 알림</h3>
+              <p>
+                지금 준비해야 할 일정은 D-day 기준으로 보여주고, 같은 시기
+                일정은 하나의 알림으로 묶어 더 깔끔하게 안내합니다.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-index">04</span>
+              <h3>백신별 자세한 설명</h3>
+              <p>
+                어떤 질환을 예방하는지, 왜 중요한지, 어떤 특성이 있는지
+                간단하고 이해하기 쉽게 정리했습니다.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-index">05</span>
+              <h3>검진·접종 전 준비사항</h3>
+              <p>
+                병원 방문 전에 무엇을 체크해야 하는지 빠르게 볼 수 있어,
+                보호자가 질문과 준비에 더 집중할 수 있습니다.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-index">06</span>
+              <h3>최신 일정 업데이트</h3>
+              <p>
+                앱에 하드코딩된 정보만 쓰지 않고, 원격 데이터베이스를 통해
+                일정 정보를 갱신할 수 있도록 설계했습니다.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="showcase-section" id="screens">
+          <div class="section-heading">
+            <p class="eyebrow">화면 미리보기</p>
+            <h2>하루 안에 여러 번 열게 되는 화면들</h2>
+            <p>
+              홈에서는 지금 해야 할 일을, 예방접종 화면에서는 전체 흐름을,
+              프로필에서는 알림과 데이터베이스 상태를 바로 확인할 수 있습니다.
+            </p>
+          </div>
+
+          <div class="showcase-grid">
+            <article class="showcase-card">
+              <div class="showcase-copy">
+                <span>홈 대시보드</span>
+                <h3>오늘 기준으로 무엇을 준비할지 바로 확인</h3>
+                <p>
+                  완료 항목, 지금 준비, 놓친 일정이 요약되고, 가장 가까운
+                  일정이 카드 형태로 먼저 보입니다.
+                </p>
+              </div>
+              <figure class="showcase-frame">
+                <img src="./assets/home.png" alt="홈 대시보드 화면" />
+              </figure>
+            </article>
+
+            <article class="showcase-card">
+              <div class="showcase-copy">
+                <span>예방접종 캘린더</span>
+                <h3>기간이 긴 접종도 흐름이 보이게</h3>
+                <p>
+                  연령 구간과 기간 바가 함께 보여서, 접종이 어떻게 이어지는지
+                  한눈에 파악할 수 있습니다.
+                </p>
+              </div>
+              <figure class="showcase-frame">
+                <img src="./assets/vaccines.png" alt="예방접종 캘린더 화면" />
+              </figure>
+            </article>
+
+            <article class="showcase-card">
+              <div class="showcase-copy">
+                <span>프로필과 업데이트</span>
+                <h3>알림과 데이터베이스 버전을 직접 관리</h3>
+                <p>
+                  현재 사용 중인 데이터베이스 버전과 수동 업데이트 기능을
+                  제공해, 최신 일정 반영 여부를 사용자가 직접 확인할 수
+                  있습니다.
+                </p>
+              </div>
+              <figure class="showcase-frame">
+                <img src="./assets/profile.png" alt="프로필 화면" />
+              </figure>
+            </article>
+          </div>
+        </section>
+
+        <section class="steps-section">
+          <div class="section-heading">
+            <p class="eyebrow">어떻게 쓰나요?</p>
+            <h2>복잡한 설명 없이 세 단계면 충분합니다</h2>
+          </div>
+
+          <div class="steps-grid">
+            <article class="step-card">
+              <span>1</span>
+              <h3>아이 생년월일 입력</h3>
+              <p>출생일 기준으로 예방접종과 검진 일정을 자동 계산합니다.</p>
+            </article>
+
+            <article class="step-card">
+              <span>2</span>
+              <h3>목록과 캘린더로 확인</h3>
+              <p>가까운 일정은 목록으로, 전체 흐름은 캘린더로 살펴봅니다.</p>
+            </article>
+
+            <article class="step-card">
+              <span>3</span>
+              <h3>준비하고 기록하기</h3>
+              <p>
+                준비사항을 보고 완료 체크를 남기면 다음 일정이 다시 정리됩니다.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="faq-section">
+          <div class="section-heading">
+            <p class="eyebrow">자주 묻는 질문</p>
+            <h2>앱 소개 전에 많이 묻는 질문들</h2>
+          </div>
+
+          <div class="faq-list">
+            <article>
+              <h3>이 앱이 공식 예방접종 기록을 대신하나요?</h3>
+              <p>
+                아닙니다. 이 앱은 보호자의 이해와 준비를 돕는 보조 도구입니다.
+                실제 기록 확인과 대상 조회는 질병관리청, 국민건강보험공단 등
+                공식 채널을 함께 확인하는 것을 권장합니다.
+              </p>
+            </article>
+
+            <article>
+              <h3>유아기 이후 일정도 볼 수 있나요?</h3>
+              <p>
+                네. 유아기 일정뿐 아니라 취학 전, 청소년기, 성인기까지 이어지는
+                주요 접종 흐름을 함께 보여줍니다.
+              </p>
+            </article>
+
+            <article>
+              <h3>앱에 표시되는 일정은 업데이트할 수 있나요?</h3>
+              <p>
+                네. 앱은 원격 데이터베이스 기반 업데이트를 지원해, 새로운 일정
+                정보가 있을 때 반영할 수 있도록 설계되어 있습니다.
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <p class="eyebrow">문의 및 지원</p>
+          <h2>보호자가 안심하고 쓸 수 있는 일정 도우미를 목표로 만들었습니다</h2>
+          <p class="footer-copy">
+            앱 사용 중 문의 사항이나 제안이 있다면 언제든 알려주세요. 가능한 한
+            빠르게 확인하겠습니다.
+          </p>
+        </div>
+
+        <div class="footer-actions">
+          <a
+            href="https://apps.apple.com/kr/app/%EC%95%84%EA%B8%B0-%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85-%EC%95%8C%EB%A6%AC%EB%AF%B8/id6761102015"
+            target="_blank"
+            rel="noreferrer"
+            >App Store에서 다운로드</a
+          >
+          <a href="mailto:raspberrysoft@gmail.com">raspberrysoft@gmail.com</a>
+          <a href="https://rsbr.kr/" target="_blank" rel="noreferrer"
+            >지원 사이트 바로가기</a
+          >
+          <a
+            href="https://rsbr.kr/privacy.html"
+            target="_blank"
+            rel="noreferrer"
+            >개인정보처리방침</a
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
